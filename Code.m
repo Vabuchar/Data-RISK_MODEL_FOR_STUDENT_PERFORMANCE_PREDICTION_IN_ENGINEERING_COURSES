@@ -1,4 +1,4 @@
-%% Fragility curves
+%% Fragility Curves
 clc;
 clear;
 close all;
@@ -34,4 +34,18 @@ hx = xlabel('GPA', 'Fontsize', 11, 'FontName','Times');
 hy = ylabel('P(CG < 3.0)', 'Fontsize', 11, 'FontName','Times');
 ylim([0 1])
 axis([3.3 5 0 1])
+grid on
+hold off
 
+figure
+plot(GPA_i, z_i./n_i, 'o','MarkerEdge',[0.2 0.2 0.2])
+hold on
+plot(GPA_2, p_nofailure, '-k', 'linewidth', 3)
+[legh, objh] = legend('Observations', 'Fitted Fragility Function', 'Location','southeast');
+set(legh, 'fontsize', 12,'FontName','Times')
+hx = xlabel('GPA', 'Fontsize', 11, 'FontName','Times');
+hy = ylabel('P(CG > 3.0)', 'Fontsize', 11, 'FontName','Times');
+ylim([0 1])
+axis([3.3 5 0 1])
+grid on
+hold off
