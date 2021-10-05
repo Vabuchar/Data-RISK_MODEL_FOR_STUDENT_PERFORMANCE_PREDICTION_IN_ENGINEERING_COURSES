@@ -1,4 +1,5 @@
 %% Fragility Curves
+% Written by Carlos Arteta & Veronica Abuchar
 clc;
 clear;
 close all;

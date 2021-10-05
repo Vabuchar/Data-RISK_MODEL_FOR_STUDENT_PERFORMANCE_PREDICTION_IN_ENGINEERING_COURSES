@@ -7,4 +7,4 @@ where each row will have: GPA bin of the students prior to taking the course, n_
 
 This file is the result of collecting and organizing data as is described in the paper 'Risk Model for Student Performance Prediction in Engineering Courses'.
 
-The file 'Code.m' reads the .txt file located in the same folder, then calculates the lognormal distribution parameters to then graph the fragility curves.
+The file 'Student_Performance_Fragility.m' reads the .txt file located in the same folder, then calculates the lognormal distribution parameters to then graph the fragility curves.
