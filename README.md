@@ -1,4 +1,4 @@
-# Data-RISK_MODEL_FOR_STUDENT_PERFORMANCE_PREDICTION_IN_ENGINEERING_COURSES
+# Data-Risk_Model_For_Student_Performance_Prediction_In_Engineering_Courses
 This code loads a .txt document with GPA data to build fragility curves.   Refer to 'logNormal_Score3.0_Statics.txt' for an example of the data organization within the .txt file. Create tables separated with TABS with the following headers:
 
 GPA		n_i		z_i
